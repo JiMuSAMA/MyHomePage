@@ -1,0 +1,73 @@
+		@font-face {
+			font-family:mofeiyuan;
+			src: url(../font/mofeiyuan.ttf);
+		}
+		*{
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+			font-family: mofeiyuan;
+			color:white;
+		}
+		#one_home{
+			
+		}
+		
+		
+		.navbar-brand{
+			padding: 5px 15px !important;
+			width: 150px !important;
+			text-align: right;
+			margin-right:0px ;
+		}
+		.navbar-brand>img{
+			width: 40px;
+			height: 40px;
+			/*padding: 5px ;*/
+			float: left;
+			margin-left:35px ;
+		}
+		.navbar-brand>p{
+			margin-top: 20px;
+		}
+		
+		
+		.footInner{
+			width: 100%;
+			height: auto;
+			background-color: #222;
+		}
+
+
+		.footlood{
+			width: 80%;
+			height: 50px;
+			margin: 0 auto;
+			padding: 30px;
+		}
+			
+		.footKali{
+			width: auto;
+			height: inherit;
+			list-style: none;
+		}
+		.footRadius{
+			float: left;
+			margin-left: 20px;
+		}
+		.iconHover{
+			color:white;
+		}
+		.footRadius>a:hover .iconHover{
+			color: #007bff;
+		}
+		.footCopy{
+			text-align: center;
+			padding:30px 0;
+		}
+		
+		.footCon{
+				width: 200px;
+				margin: 0 auto;
+				text-align: center;
+		}
